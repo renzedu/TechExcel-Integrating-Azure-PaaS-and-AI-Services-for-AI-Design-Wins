@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C934FD8-580D-49B0-B295-D6898F922A52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoSuitesVectorizationFunction", "src\ContosoSuitesVectorizationFunction\ContosoSuitesVectorizationFunction.csproj", "{AF227274-871F-4C96-8CFE-0419B0FF1C29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoSuitesWebAPI", "src\ContosoSuitesWebAPI\ContosoSuitesWebAPI.csproj", "{95E60F44-C8B0-4010-964D-CBEA573AFBB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF227274-871F-4C96-8CFE-0419B0FF1C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF227274-871F-4C96-8CFE-0419B0FF1C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF227274-871F-4C96-8CFE-0419B0FF1C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF227274-871F-4C96-8CFE-0419B0FF1C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E60F44-C8B0-4010-964D-CBEA573AFBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E60F44-C8B0-4010-964D-CBEA573AFBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E60F44-C8B0-4010-964D-CBEA573AFBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E60F44-C8B0-4010-964D-CBEA573AFBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF227274-871F-4C96-8CFE-0419B0FF1C29} = {5C934FD8-580D-49B0-B295-D6898F922A52}
+		{95E60F44-C8B0-4010-964D-CBEA573AFBB4} = {5C934FD8-580D-49B0-B295-D6898F922A52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4765B00-9EBC-4DBE-9E6D-02374306504D}
+	EndGlobalSection
+EndGlobal
